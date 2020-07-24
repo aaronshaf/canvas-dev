@@ -12,6 +12,10 @@
 
 `bundle exec rails graphql:schema`
 
+## Application error reports
+
+Check `/error_reports` in browser
+
 ## Client tests
 
 ### Karma
@@ -21,10 +25,6 @@
 ### Jest
 
 `yarn run test:jest`
-
-## Check application error reports
-
-Check `/error_reports` in browser
 
 ## Functional tests
 
