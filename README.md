@@ -26,7 +26,9 @@
 
 Check `/error_reports` in browser
 
-## Run Selenium tests
+## Functional tests
+
+### Prep
 
 `bundle exec rake db:migrate RAILS_ENV=test`
 
@@ -38,7 +40,28 @@ test:
   browser: "chrome"
 ```
 
+### Run spec
+
 `bundle exec rspec spec/selenium/the-rest-of-thetestpath`
+
+### Focus on single spec
+
+change
+
+`it "will run this" do`
+
+to:
+
+`it "will run this", :focus => true do`
+
+### Debug with byebug
+
+```
+it "will run this" do
+  byebug
+  1.should == 1
+end
+```
 
 ## Push to Gerrit
 
