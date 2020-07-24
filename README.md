@@ -12,9 +12,13 @@
 
 `bundle exec rails graphql:schema`
 
-## Karma
+## Client tests
+
+### Karma
 
 `yarn run jspec-watch path/to/file.js`
+
+### Jest
 
 `yarn run test:jest`
 
