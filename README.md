@@ -62,6 +62,23 @@ to:
 
 ### Debug with byebug
 
+#### Install
+
+Create `Gemfile.d/solson_gemfile.rb` with the following:
+
+```ruby
+group :development do
+	gem 'faker', '1.8.7'
+	gem 'ruby-prof'
+	gem 'guard-rspec', require: false
+  gem 'rb-readline'
+end
+```
+
+Then `bundle install`
+
+#### Debug
+
 ```
 it "will run this" do
   byebug
