@@ -46,6 +46,10 @@ test:
 
 `bundle exec rspec spec/selenium/the-rest-of-thetestpath`
 
+### Run tests with specific string
+
+`bundle exec rspec spec/selenium/the-rest-of-thetestpath -e "correct grades"`
+
 ### Focus on single spec
 
 change
