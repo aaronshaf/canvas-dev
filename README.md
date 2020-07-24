@@ -22,6 +22,8 @@ Check `/error_reports` in browser
 
 `yarn run jspec-watch path/to/file.js`
 
+`yarn run jspec ./spec/javascripts/some-path-or-file.js`
+
 ### Jest
 
 `yarn run test:jest`
