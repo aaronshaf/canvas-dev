@@ -39,3 +39,7 @@ test:
 ```
 
 `bundle exec rspec spec/selenium/the-rest-of-thetestpath`
+
+## Push to Gerrit
+
+`git push origin HEAD:refs/for/master`
