@@ -1,6 +1,13 @@
+# spencer's recipes
+
+# pulls down master, installs gems, runs migrations, installs npm packages
 alias coffee="announce '1. PULLING DOWN MASTER' && git checkout master && git pull --rebase && announce '2. RUNNING BUNDLE INSTALL' && bundle install && announce '3. RUNNING MIGRATIONS' && migrate_dev && migrate_test && yarn install --pure-lockfile"
+
 alias migrate_test="bundle exec rails db:migrate RAILS_ENV=test"
 alias migrate_dev="bundle exec rails db:migrate RAILS_ENV=development"
+
+# if you are just having weird local issues, can’t figure out what the root cause is,
+# and wanna do as much housecleaning/wiping as possible (but it doesn’t drop the DB or anything)
 alias nuke-and-pray="yarn-nuke && script/canvas_update && migrate_test && rm -rf public/dist && assets"
 alias yarn-nuke="rm -rf node_modules gems/*/node_modules && yarn install && npm rebuild node-sass"
 alias assets="bundle exec rake canvas:compile_assets_dev"
