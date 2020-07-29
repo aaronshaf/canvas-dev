@@ -91,3 +91,14 @@ end
 `git push origin HEAD:refs/for/master`
 
 `git push origin HEAD:refs/for/dev/yourbranchname`
+
+## Set up RCE/RCS
+
+In `config/dynamic_settings.yml` make sure the rich_content_service section looks like this:
+ 
+```
+rich-content-service:
+  app-host: 'localhost:3001'
+```
+
+Clone the RCS repo, run `yarn` and then `yarn start`.
