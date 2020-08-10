@@ -64,7 +64,7 @@ to:
 
 #### Install
 
-Create `Gemfile.d/solson_gemfile.rb` with the following:
+Create `Gemfile.d/username_gemfile.rb` with the following:
 
 ```ruby
 group :development do
