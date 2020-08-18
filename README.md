@@ -28,6 +28,10 @@ Check `/error_reports` in browser
 
 `yarn run test:jest`
 
+### JSH
+
+`JSPEC_GROUP="jsh" yarn test:karma:headless`
+
 ## Functional tests
 
 ### Prep
