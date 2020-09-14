@@ -6,6 +6,8 @@
 
 `bundle exec rails db:initial_setup`
 
+`RAILS_ENV=test bundle exec rails db:test:reset`
+
 ```
 psql -c 'CREATE USER canvas' -d postgres
 psql -c 'ALTER USER canvas CREATEDB' -d postgres
