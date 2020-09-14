@@ -10,6 +10,10 @@
 
 `bundle exec script/delayed_job run`
 
+## Spin up console
+
+`bundle exec rails console`
+
 ## Update GraphQL schema
 
 `bundle exec rails graphql:schema`
