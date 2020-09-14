@@ -1,3 +1,7 @@
+## Set up Canvas
+
+`bundle exec rails db:initial_setup`
+
 ## Spin up Canvas
 
 `redis-server /usr/local/etc/redis.conf`
