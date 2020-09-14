@@ -1,5 +1,9 @@
 ## Set up Canvas
 
+`createdb canvas_development`
+
+`createdb canvas_test`
+
 `bundle exec rails db:initial_setup`
 
 ## Spin up Canvas
