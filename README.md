@@ -8,6 +8,8 @@
 
 `yarn run build:css:watch`
 
+`bundle exec script/delayed_job run`
+
 ## Update GraphQL schema
 
 `bundle exec rails graphql:schema`
