@@ -1,5 +1,7 @@
 ## Set up Canvas
 
+`brew install libiconv && xcode-select --install`
+
 `createdb canvas_development`
 
 `createdb canvas_test`
