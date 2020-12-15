@@ -12,4 +12,7 @@ end
 ## Then
 
 `bundle install`
+
 `rails db:seed`
+
+`rails runner spec/manual_seeding/gradebook_seed.rb` ?
