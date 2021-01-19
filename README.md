@@ -136,3 +136,7 @@ rich-content-service:
 ```
 
 Clone the RCS repo, run `yarn` and then `yarn start`.
+
+## List routes
+
+`bundle exec rake routes`
