@@ -149,3 +149,9 @@ Clone the RCS repo, run `yarn` and then `yarn start`.
 Assignment.connection
 Assignment
 ```
+
+## debugger
+
+* `c` - continues to next debugger
+* `n` - take me to next line of execution
+* `s` - step into call being made on current line
