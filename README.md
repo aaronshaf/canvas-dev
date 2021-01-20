@@ -140,3 +140,12 @@ Clone the RCS repo, run `yarn` and then `yarn start`.
 ## List routes
 
 `bundle exec rake routes`
+
+## Inspect model attributes
+
+`bin/rails console`
+
+```
+Assignment.connection
+Assignment
+```
