@@ -80,6 +80,8 @@ test:
 
 `bundle exec rspec spec/selenium/the-rest-of-thetestpath`
 
+`bundle exec rspec spec/models/assignment_spec.rb`
+
 ### Run tests with specific string
 
 `bundle exec rspec spec/selenium/the-rest-of-thetestpath -e "correct grades"`
