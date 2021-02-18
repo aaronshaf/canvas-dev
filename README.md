@@ -122,6 +122,10 @@ it "will run this" do
 end
 ```
 
+```
+continue!
+```
+
 ## Push to Gerrit
 
 `git push origin HEAD:refs/for/master`
