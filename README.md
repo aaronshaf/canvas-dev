@@ -28,9 +28,7 @@ RAILS_ENV=test bundle exec rails db:test:reset
 
 `bundle exec rails server`
 
-`yarn run build:js:watch`
-
-`yarn run build:css:watch`
+`yarn run build:watch`
 
 `bundle exec script/delayed_job run`
 
