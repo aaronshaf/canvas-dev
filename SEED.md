@@ -16,3 +16,7 @@ end
 `rails db:seed`
 
 `rails runner spec/manual_seeding/gradebook_seed.rb` ?
+
+## Also see
+
+`bin/rails runner spec/fixtures/data_generation/generate_data.rb [options]` 
